@@ -256,7 +256,7 @@ body {
 	height: 2rem;
 	border-radius: 10px;
 	width: 100%;
-	background-color: rgba(218, 247, 166, 0.2);
+	background-color: rgba(219, 255, 51, 0.2);
 }
 .gay-bar {
 	position: absolute;
@@ -264,7 +264,7 @@ body {
 	left: 0;
 	height: 2rem;
 	border-radius: 10px;
-	background-color: rgba(218, 247, 166, 1);
+	background-color: rgba(219, 255, 51, 1);
 }
 .loyalty-box {
 	position: absolute;
