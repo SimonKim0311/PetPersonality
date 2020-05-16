@@ -1,16 +1,15 @@
 body {
 	font-family: 'Poor Story', cursive;
-	background-image:url('pink-clouds-1831234.jpg');
 	background-color: #ffffff;
 	box-sizing: border-box;
-	color: #35465d;
+	color: #000000;
 }
 .file-upload {
 	padding: 15% 3%;
 	margin: 0 auto;
 	border-radius: 10px;
-	border: solid 1.5px #f6f7fa;
-	background-color: #f6f7fa;
+	border: solid 1.5px #000000;
+	background-color: #f2f2f2;
 }
 .file-upload-btn {
 	width: 100%;
@@ -138,13 +137,13 @@ body {
 .title {
 	line-height: 1.67;
 	text-align: center;
-	color: #35465d;
+	color: #000000;
 }
 
 .subtitle {
 	line-height: 1.53;
 	text-align: center;
-	color: #35465d;
+	color: #000000;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -183,11 +182,11 @@ body {
 }
 
 .upload-text {
-	width: 58%;
+	width: 60%;
 	font-size: 1.5rem;
 	line-height: 1.53;
 	text-align: center;
-	color: #35465d;
+	color: #000000;
 	margin: 0 auto;
 }
 
@@ -453,7 +452,7 @@ label {
 	display: inline-block;
 	width: 90px;
 	height: 41px;
-	box-shadow: 0 0 0 8px #e5e9ea inset;
+	box-shadow: 0 0 0 8px #f2f2f2 inset;
 	border-radius: 30px;
 	position: relative;
 }
