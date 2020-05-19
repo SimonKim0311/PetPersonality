@@ -4,6 +4,14 @@ body {
 	box-sizing: border-box;
 	color: #000000;
 }
+.ad_1 {
+	width: 320px;
+	margin: 0 auto;
+}
+.ad_2 {
+	width: 250px;
+	margin: 0 auto;
+}
 .file-upload {
 	padding: 15% 3%;
 	margin: 0 auto;
