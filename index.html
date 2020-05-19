@@ -44,33 +44,6 @@
 
 	</section>
 	<script>
-		$(function() {
-			$('.btn-3')
-				.on('mouseenter', function(e) {
-					var parentOffset = $(this).offset(),
-						relX = e.pageX - parentOffset.left,
-						relY = e.pageY - parentOffset.top;
-					$(this).find('span').css({
-						top: relY,
-						left: relX
-					})
-				})
-				.on('mouseout', function(e) {
-					var parentOffset = $(this).offset(),
-						relX = e.pageX - parentOffset.left,
-						relY = e.pageY - parentOffset.top;
-					$(this).find('span').css({
-						top: relY,
-						left: relX
-					})
-				});
-			$('[href=#]').click(function() {
-				return false
-			});
-		});
-	</script>
-
-	<script>
 		var ua = navigator.userAgent.toLowerCase();
 
 		function changeLanguage(lang) {
@@ -139,7 +112,10 @@
 			<a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link">조코딩 유튜브채널 바로가기</a>
 		</div>
 	</section>
-	<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1h7fwfqf7xh6h" data-ad-width="320" data-ad-height="100"></ins>
+	<ins class="kakao_ad_area" style="display:none;" 
+	 data-ad-unit    = "DAN-1h7fwfqf7xh6h" 
+	 data-ad-width   = "320" 
+	 data-ad-height  = "100"></ins> 
 	<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 	<footer class="footer pt-5 container d-flex justify-content-center">
 		<div>
