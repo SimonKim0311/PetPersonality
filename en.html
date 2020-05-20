@@ -15,13 +15,13 @@
 	<meta name="subject" content="Find your pet's personality with artificial intelligence. What is it?">
 	<meta name="keywords" content="pet, personality, cat, dog, machine learning, artificial intelligence">
 	<meta name="author" content="Simon Kim">
-	<meta name="description" content="인공지능으로 알아보는 애완동물 성향분석. 내 애완동물의 타고난 성향은 무엇일까요? 2000개 이상의 동물사진 데이터로 학습한 인공지능이 내 애완동물의 성향을 찾아드립니다. 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능으로 알아보는 애완동물 성향분석 한번 해보세요! 성향분석 테스트를 통해 내 애완동물의 타고난 성향을 찾을 수 있습니다.">
+	<meta name="description" content="Find your pet's personality with artificial intelligence. What is it?">
 	<link rel="stylesheet" href="style.css">
 	<link rel="canonical" href="https://petpersonality.netlify.app" />
 	<meta property="og:url" content="https://petpersonality.netlify.app" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="pet personality" />
-	<meta property="og:description" content="인공지능으로 알아보는 애완동물 성향분석. 내 애완동물의 타고난 성향은 무엇일까요? 2000개 이상의 동물사진 데이터로 학습한 인공지능이 내 애완동물의 성향을 찾아드립니다. 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능으로 알아보는 애완동물 성향분석 한번 해보세요! 성향분석 테스트를 통해 내 애완동물의 타고난 성향을 찾을 수 있습니다." />
+	<meta property="og:description" content="Find your pet's personality with artificial intelligence. What is it?" />
 	<meta property="og:image" content="https://i.ibb.co/xXRSr4c/dog-1379928.jpg" />
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
@@ -185,28 +185,28 @@
 				switch (prediction[0].className) {
 					case "brave":
 						resultTitle = "Confident and brave"
-						resultExplain = "어디를 가도 누구를 만나도 항상 자신감에 차있으며 기죽지않는다! 다른 강아지들과 함께있을때 서열정리를통해 자신이 우두머리라는것을 나타내곤한다."
-						resultCeleb = "Puppies with similar personalities: 불독, 슈나우저, 치와와, 프렌치 불독, 닥스훈트, 복서"
+						resultExplain = "No matter where they go, whoever they meet, they are always confident!"
+						resultCeleb = "Puppies with similar personalities: Bulldog, schnauzer, chihuahua, french bulldog, dachshund, boxer"
 						break;
 					case "smart":
 						resultTitle = "Smart and prudent"
-						resultExplain = "무엇을 하든지 신중히 행동하며, 영리해서 학습능력도 뛰어난편이다! 다만 뛰어난학습능력때문에 견주가 힘들때도있다.."
-						resultCeleb = "Puppies with similar personalities: 달마시안, 시베리안 허스키, 보더콜리"
+						resultExplain = "Whatever they do, they act carefully, and they are smart enough to learn well!"
+						resultCeleb = "Puppies with similar personalities: Dalmatian, Siberian Husky, Border Collie"
 						break;
 					case "independence":
 						resultTitle = "Strong independence"
-						resultExplain = "독립심이 강하며 소수의 사람,동물들과 뛰어난 유대관계를 가지고있는편이다. 소수를 제외한 나머지에게는 무관심한 경향도 있으나 맛있는간식을주면 유대관계를 구축해나갈수있다고한다!"
-						resultCeleb = "Puppies with similar personalities: 말라뮤트, 웰시코기, 차우차우"
+						resultExplain = "They have a strong sense of independence and has excellent ties with a small number of people and animals!"
+						resultCeleb = "Puppies with similar personalities: Malamute, Welsh Corgi, Chow Chow"
 						break;
 					case "gay":
 						resultTitle = "Cheerful and affectionate"
-						resultExplain = "매우 긍정적이며, 처음본 사람과 강아지와도 금방 친해지는편이다. 신이나서 통제가 힘들때도있지만 같이있는사람들에게 활력을 주는 존재이다!"
-						resultCeleb = "Puppies with similar personalities: 골든 리트리버, 사모예드, 포메라니안, 그레이트 데인"
+						resultExplain = "They are very positive, and they are very easy to get along with a puppy they've never seen before!"
+						resultCeleb = "Puppies with similar personalities: Golden Retriever, Samoyed, Pomeranian, Great Dane"
 						break;
 					case "loyalty":
 						resultTitle = "Loyal and kind"
-						resultExplain = "언제 어디서나 적응을 잘하며 충성심이강해 훈련또한 용이한편이다. 애교가많아 같이있는사람들을 항상 즐겁게해주며 칭찬을통해 애교를 업그레이드할수있다고한다!"
-						resultCeleb = "Puppies with similar personalities: 래브라도 리트리버, 셔틀랜드 쉽독, 요크셔테리어, 저먼 셰퍼드"
+						resultExplain = "Adaptation is good anytime, anywhere, and loyalty makes training easy!"
+						resultCeleb = "Puppies with similar personalities: Labrador Retriever, Shuttleland Sheepdog, Yorkshire Terrier, German Shepherd"
 						break;
 					default:
 						resultTitle = "none"
@@ -217,28 +217,28 @@
 				switch (prediction[0].className) {
 					case "gentleness":
 						resultTitle = "Gentle and prudent"
-						resultExplain = "대체적으로 느긋한 편이며 성격이 온순하여 누구와도 잘 어울리는편이다! 신중한 성격때문인지 가장 숨바꼭질을 잘하는 성격으로 알려져있다."
-						resultCeleb = "Cats with similar personalities: 페르시안 고양이, 엑조틱 숏헤어"
+						resultExplain = "They are usually laid back, and they have a gentle personality that goes well with anyone!"
+						resultCeleb = "Cats with similar personalities: Persian Cat, Exotic Short Hair"
 						break;
 					case "curious":
 						resultTitle = "Curious and active"
-						resultExplain = "항상 신이나있으며 모든것에 호기심을 갖는편. 집사보다 에너지가 넘치는경우가많아 통제가 어려울때가 많다고한다!"
-						resultCeleb = "Cats with similar personalities: 메인쿤, 아메리칸 숏헤어"
+						resultExplain = "They are always excited and curious about everything!"
+						resultCeleb = "Cats with similar personalities: Maine Coon, American Short Hair"
 						break;
 					case "stindependence":
 						resultTitle = "Independence and bravery"
-						resultExplain = "평범한 고양이답지않게 용감하며 독립심이강해 모든것을 독차지하려는 경향이 있는편이다. 공격적인 면도 있지만 친해지기 시작하면 누구보다 친해질수있는 타입이다!"
-						resultCeleb = "Cats with similar personalities: 러시안블루, 시암고양이"
+						resultExplain = "They are brave and have strong independence, so they tend to do everything!"
+						resultCeleb = "Cats with similar personalities: Russian Blue, Siamese Cat"
 						break;
 					case "clever":
 						resultTitle = "Clever and cheerful"
-						resultExplain = "고양이들중에 가장 성격이 밝으며 훈련도 용이한편이다. 외모부터 똑똑하게생긴경우가많으며 고양이들 사이에서도 인기가 많은편이다!"
-						resultCeleb = "Cats with similar personalities: 먼치킨, 아비니시안"
+						resultExplain = "They are the brightest and most trained of the cats. They are often smart from appearance, and are also popular among cats!"
+						resultCeleb = "Cats with similar personalities: Munchkin cat, Abyssinian"
 						break;
 					case "obedient":
 						resultTitle = "Affectionate and obedient"
-						resultExplain = "애정이많아 사람들을 잘 따르며 누구와도 잘 어울리는 편이다. 특히 순종적이어서 집사들이 가장 좋아하는 분류의 냥이들이다! "
-						resultCeleb = "Cats with similar personalities: 브리티쉬 쇼트헤어, 랙돌"
+						resultExplain = "They are affectionate, so they follow people well, and they tend to get along well with anyone!"
+						resultCeleb = "Cats with similar personalities: British Shorthair, Ragdoll"
 						break;
 					default:
 						resultTitle = "none"
