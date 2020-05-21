@@ -473,7 +473,7 @@ label {
 	left: 0;
 	height: 41px;
 	border-radius: 50%;
-	box-shadow: 0 0 0 8px #f7a6a6 inset;
+	box-shadow: 0 0 0 8px #BCFF79 inset;
 	background-color: #ffffff;
 	transition: 0.2s;
 }
@@ -502,7 +502,7 @@ label {
 }
 
 input:checked + label > .knob {
-	box-shadow: 0 0 0 8px #a1c6dd inset;
+	box-shadow: 0 0 0 8px #BC79FF inset;
 	background-color: #ffffff;
 	transform: translateX(49px) rotate(-140deg);
 }
