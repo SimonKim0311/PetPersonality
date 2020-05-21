@@ -13,9 +13,6 @@ body {
 	height: 300px;
 	margin: 0 auto;
 }
-.smcx-embed {
-	margin: 0 auto;
-}
 .file-upload {
 	padding: 15% 3%;
 	margin: 0 auto;
@@ -449,7 +446,18 @@ body {
 	color: #31849b;
 	font-size: 1.2rem;
 }
-
+.pb-5,
+.py-5 {
+	padding-bottom: 5rem !important;
+}
+.pt-4,
+.py-4 {
+	padding-top: 5rem !important;
+}
+.mb-5,
+.my-5 {
+	margin-bottom: 0rem !important;
+}
 /* gender */
 input#animal {
 	display: none;
