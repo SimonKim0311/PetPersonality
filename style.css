@@ -13,6 +13,9 @@ body {
 	height: 300px;
 	margin: 0 auto;
 }
+.smcx-embed {
+	margin: 0 auto;
+}
 .file-upload {
 	padding: 15% 3%;
 	margin: 0 auto;
@@ -622,5 +625,6 @@ h4 {
 }
 .btn-3:hover:after {
 	-webkit-transform: translateX(30%);
+
 	transform: translateX(30%);
 }
