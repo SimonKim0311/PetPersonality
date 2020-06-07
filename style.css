@@ -4,6 +4,10 @@ body {
 	box-sizing: border-box;
 	color: #000000;
 }
+#disqus_thread {
+	width: 90%;
+	margin: 0 auto;
+}
 .ad_1 {
 	width: 320px;
 	margin: 0 auto;
